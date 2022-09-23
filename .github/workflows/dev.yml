@@ -31,6 +31,7 @@ jobs:
         with:
           build: npm run build
           start: npm start
+          test: npm start
           switches: -avzr --delete
           path: ./*
           remote_path: /var/www/my-app/
