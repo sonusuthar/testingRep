@@ -2,7 +2,7 @@
   "name": "testingrep",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
+  "script": {
     "start": "npm start",
     "build": "npm run build",
     "test": "npm start",
