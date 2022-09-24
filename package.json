@@ -5,7 +5,8 @@
   "script": {
     "debug": "ENV=development DEBUG=knex:* node app.js",
     "start": "pm2 start",
-    "stop": "pm2 kill"
+    "stop": "pm2 kill",
+    "build":"npm run build"
 
   },
   "dependencies": {
