@@ -13,7 +13,7 @@ let a;
   connection.connect(function (err) {
     if(err){
        a="error occurred while connecting";
-        console.log("error occurred while connecting");
+        console.log("error occurred while connecting",err);
     }
     else{
       a="connection created with Mysql successfully";
