@@ -3,9 +3,9 @@ var router = express.Router();
 const mysql = require('mysql');
 const connection = mysql.createConnection(
   {
-    host: 'database-test.cazy6opwdrq5.ap-northeast-1.rds.amazonaws.com',
+    host: 'database-newaws.cazy6opwdrq5.ap-northeast-1.rds.amazonaws.com',
     port: 3306,
-    database: 'database-test',
+    database: 'database-newaws',
     user: 'admin',
     password: 'Octal#321'
   });
